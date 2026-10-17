@@ -1,5 +1,16 @@
 # Changelog
 
+## Release (2026-10-17)
+
+* ember-power-calendar 2.0.1 (patch)
+
+#### :bug: Bug Fix
+* `ember-power-calendar`
+  * [#681](https://github.com/ember-power-addons/ember-power-calendar/pull/681) Do not re-export test-support/helpers into the host app tree ([@gbudjeakp](https://github.com/gbudjeakp))
+
+#### Committers: 1
+- Xzebaztian ([@gbudjeakp](https://github.com/gbudjeakp))
+
 ## Release (2026-07-19)
 
 * ember-power-calendar 2.0.0 (major)
