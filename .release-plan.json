@@ -1,18 +1,8 @@
 {
   "solution": {
     "ember-power-calendar": {
-      "impact": "patch",
-      "oldVersion": "2.0.0",
-      "newVersion": "2.0.1",
-      "tagName": "latest",
-      "constraints": [
-        {
-          "impact": "patch",
-          "reason": "Appears in changelog section :bug: Bug Fix"
-        }
-      ],
-      "pkgJSONPath": "./package.json"
+      "oldVersion": "2.0.1"
     }
   },
-  "description": "## Release (2026-10-17)\n\n* ember-power-calendar 2.0.1 (patch)\n\n#### :bug: Bug Fix\n* `ember-power-calendar`\n  * [#681](https://github.com/ember-power-addons/ember-power-calendar/pull/681) Do not re-export test-support/helpers into the host app tree ([@gbudjeakp](https://github.com/gbudjeakp))\n\n#### Committers: 1\n- Xzebaztian ([@gbudjeakp](https://github.com/gbudjeakp))\n"
+  "description": "\n\n\n\n"
 }
