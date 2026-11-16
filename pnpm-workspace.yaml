@@ -45,3 +45,4 @@ minimumReleaseAgeExclude:
   - '@rollup/rollup-win32-x64-gnu@4.68.4'
   - '@rollup/rollup-win32-x64-msvc@4.68.4'
   - rollup@4.68.4
+  - ember-power-calendar@2.0.2
