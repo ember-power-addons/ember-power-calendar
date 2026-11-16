@@ -1,22 +1,8 @@
 {
   "solution": {
     "ember-power-calendar": {
-      "impact": "patch",
-      "oldVersion": "2.0.1",
-      "newVersion": "2.0.2",
-      "tagName": "latest",
-      "constraints": [
-        {
-          "impact": "patch",
-          "reason": "Appears in changelog section :bug: Bug Fix"
-        },
-        {
-          "impact": "patch",
-          "reason": "Appears in changelog section :house: Internal"
-        }
-      ],
-      "pkgJSONPath": "./package.json"
+      "oldVersion": "2.0.2"
     }
   },
-  "description": "## Release (2026-11-16)\n\n* ember-power-calendar 2.0.2 (patch)\n\n#### :bug: Bug Fix\n* `ember-power-calendar`\n  * [#685](https://github.com/ember-power-addons/ember-power-calendar/pull/685) Replace `isArray` from `@ember/array` with native `Array.isArray` ([@mkszepp](https://github.com/mkszepp))\n\n#### :house: Internal\n* `ember-power-calendar`\n  * [#686](https://github.com/ember-power-addons/ember-power-calendar/pull/686) Update dependencies ([@mkszepp](https://github.com/mkszepp))\n\n#### Committers: 1\n- Markus Sanin ([@mkszepp](https://github.com/mkszepp))\n"
+  "description": "\n\n\n\n"
 }
