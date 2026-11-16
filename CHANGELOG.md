@@ -1,5 +1,20 @@
 # Changelog
 
+## Release (2026-11-16)
+
+* ember-power-calendar 2.0.2 (patch)
+
+#### :bug: Bug Fix
+* `ember-power-calendar`
+  * [#685](https://github.com/ember-power-addons/ember-power-calendar/pull/685) Replace `isArray` from `@ember/array` with native `Array.isArray` ([@mkszepp](https://github.com/mkszepp))
+
+#### :house: Internal
+* `ember-power-calendar`
+  * [#686](https://github.com/ember-power-addons/ember-power-calendar/pull/686) Update dependencies ([@mkszepp](https://github.com/mkszepp))
+
+#### Committers: 1
+- Markus Sanin ([@mkszepp](https://github.com/mkszepp))
+
 ## Release (2026-10-17)
 
 * ember-power-calendar 2.0.1 (patch)
