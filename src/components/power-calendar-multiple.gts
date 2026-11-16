@@ -3,7 +3,6 @@ import { tracked } from '@glimmer/tracking';
 import { guidFor } from '@ember/object/internals';
 import { service } from '@ember/service';
 import { assert } from '@ember/debug';
-import { isArray } from '@ember/array';
 import { action } from '@ember/object';
 import { task, type TaskInstance } from 'ember-concurrency';
 import PowerCalendarMultipleDaysComponent, {
@@ -166,7 +165,7 @@ export default class PowerCalendarMultiple extends Component<PowerCalendarMultip
 
     const value = this.args.selected;
 
-    if (!isArray(value)) {
+    if (!Array.isArray(value)) {
       return value;
     }
 
@@ -257,13 +256,13 @@ export default class PowerCalendarMultiple extends Component<PowerCalendarMultip
   ) {
     assert(
       `The select action expects an array of date objects, or a date object. ${typeof dayOrDays} was recieved instead.`,
-      isArray(dayOrDays) ||
+      Array.isArray(dayOrDays) ||
         (dayOrDays instanceof Object && dayOrDays.date instanceof Date),
     );
 
     let days;
 
-    if (isArray(dayOrDays)) {
+    if (Array.isArray(dayOrDays)) {
       days = dayOrDays;
     } else if (dayOrDays instanceof Object && dayOrDays.date instanceof Date) {
       days = [dayOrDays];
