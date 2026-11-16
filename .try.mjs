@@ -102,10 +102,18 @@ export default {
       },
     },
     {
-      name: 'ember-lts-6.12-shadow-dom',
+      name: 'ember-lts-7.4',
       npm: {
         devDependencies: {
-          'ember-source': 'npm:ember-source@~6.12.0',
+          'ember-source': 'npm:ember-source@~7.4.0',
+        },
+      },
+    },
+    {
+      name: 'ember-lts-7.4-shadow-dom',
+      npm: {
+        devDependencies: {
+          'ember-source': 'npm:ember-source@~7.4.0',
         },
       },
       env: {
