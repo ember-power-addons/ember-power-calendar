@@ -1,5 +1,10 @@
 # Changelog
 
+
+
+
+
+
 ## Release (2026-11-16)
 
 * ember-power-calendar 2.0.2 (patch)
