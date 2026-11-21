@@ -205,8 +205,8 @@ importers:
         specifier: ^7.29.0
         version: 7.29.7(@babel/core@7.29.13)
       '@babel/plugin-transform-runtime':
-        specifier: ^7.29.7
-        version: 7.29.7(@babel/core@7.29.13)
+        specifier: ^8.1.2
+        version: 8.1.2(@babel/core@7.29.13)
       '@babel/plugin-transform-typescript':
         specifier: ^7.29.9
         version: 7.29.9(@babel/core@7.29.13)
@@ -877,6 +877,12 @@ packages:
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
+
+  '@babel/plugin-transform-runtime@8.1.2':
+    resolution: {integrity: sha512-aF328GJGJOxQXgLgTy8FtD9xsmdwXEOw6GDYGnwsiYG/FkeOK0k7dXHWERpN4B8TkiFsK8pQtNrKTHq7JppueA==}
+    engines: {node: ^22.18.0 || >=24.11.0}
+    peerDependencies:
+      '@babel/core': ^8.0.0
 
   '@babel/plugin-transform-shorthand-properties@7.29.7':
     resolution: {integrity: sha512-I+WYbGBAiCn7nA6xBrlgPH+MB7HWb4u8pv5S0Pv7OtwNvIFvCCb24YlttKEeUFVurfBCEaOTnuhlqsb7f0Z5Dg==}
@@ -7584,6 +7590,12 @@ snapshots:
       semver: 6.3.2
     transitivePeerDependencies:
       - supports-color
+
+  '@babel/plugin-transform-runtime@8.1.2(@babel/core@7.29.13)':
+    dependencies:
+      '@babel/core': 7.29.13
+      '@babel/helper-module-imports': 8.0.0
+      '@babel/helper-plugin-utils': 8.0.1(@babel/core@7.29.13)
 
   '@babel/plugin-transform-shorthand-properties@7.29.7(@babel/core@7.29.13)':
     dependencies:
