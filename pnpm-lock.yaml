@@ -18,8 +18,8 @@ importers:
         specifier: ^2.4.0
         version: 2.4.0(@babel/core@7.29.13)
       ember-element-helper:
-        specifier: ^0.8.8
-        version: 0.8.8
+        specifier: ^1.0.0
+        version: 1.0.0(@babel/core@7.29.13)(@glint/template@1.11.1)
       ember-modifier:
         specifier: ^4.3.0
         version: 4.3.0(@babel/core@7.29.13)
@@ -3404,6 +3404,9 @@ packages:
   ember-element-helper@0.8.8:
     resolution: {integrity: sha512-3slTltQV5ke53t3YVP2GYoswsQ6y+lhuVzKmt09tbEx91DapG8I/xa8W5OA0StvcQlavL3/vHrz/vCQEFs8bBA==}
     engines: {node: 14.* || 16.* || >= 18}
+
+  ember-element-helper@1.0.0:
+    resolution: {integrity: sha512-CJLe9tKet0vk1zTyJxzCyWNwh0CbjWGvCzwsB4uAgfsBzIiQLFcJBTsZbMFqVm0KXtZv+VSjSSXIJplZKtu6qg==}
 
   ember-eslint-parser@0.16.1:
     resolution: {integrity: sha512-1FSGhbknZwYG3nz3HK30lim4xVxM0B42ps5dOtrFrzz9cbdMtR5K+ftlOsfFjRLU7gL66zCJVVnsF1VuVlBSZg==}
@@ -10595,6 +10598,16 @@ snapshots:
   ember-element-helper@0.8.8:
     dependencies:
       '@embroider/addon-shim': 1.11.0
+
+  ember-element-helper@1.0.0(@babel/core@7.29.13)(@glint/template@1.11.1):
+    dependencies:
+      '@embroider/addon-shim': 1.11.0
+      '@embroider/macros': 1.21.4(@babel/core@7.29.13)(@glint/template@1.11.1)
+      decorator-transforms: 2.4.0(@babel/core@7.29.13)
+    transitivePeerDependencies:
+      - '@babel/core'
+      - '@glint/template'
+      - supports-color
 
   ember-eslint-parser@0.16.1(@babel/eslint-parser@7.29.13(@babel/core@7.29.13)(eslint@9.39.5(jiti@2.7.0)))(@typescript-eslint/parser@8.72.2(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3))(typescript@6.0.3):
     dependencies:
