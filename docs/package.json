@@ -83,7 +83,7 @@
     "moment": "^2.31.0",
     "prettier": "^3.10.1",
     "prettier-plugin-ember-template-tag": "^2.1.8",
-    "qunit": "^2.26.0",
+    "qunit": "^3.0.0",
     "qunit-dom": "^3.6.0",
     "rsvp": "^4.8.5",
     "sass-embedded": "^1.108.2",
